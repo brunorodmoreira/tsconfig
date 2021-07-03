@@ -1,0 +1,26 @@
+{
+  "name": "@brunormoreira/tsconfig",
+  "version": "0.0.0",
+  "description": "Personal tsconfig configuration",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunorodmoreira/tsconfig.git"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "author": "Bruno Moreira <bruno@brunormoreira.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunorodmoreira/tsconfig/issues"
+  },
+  "homepage": "https://github.com/brunorodmoreira/tsconfig#readme"
+}
