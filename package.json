@@ -1,0 +1,32 @@
+{
+  "name": "@brunormoreira/tsconfig",
+  "version": "0.1.0",
+  "description": "Personal tsconfig configuration",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "tsconfig.json",
+  "scripts": {
+    "version": "chan release ${npm_package_version} && git add CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brunorodmoreira/tsconfig.git"
+  },
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "author": "Bruno Moreira <bruno@brunormoreira.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brunorodmoreira/tsconfig/issues"
+  },
+  "homepage": "https://github.com/brunorodmoreira/tsconfig#readme",
+  "devDependencies": {
+    "@geut/chan": "2.x"
+  },
+  "peerDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
