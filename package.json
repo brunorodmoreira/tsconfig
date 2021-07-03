@@ -5,13 +5,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "index.js",
+  "main": "tsconfig.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "version": "chan release ${npm_package_version} && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunorodmoreira/tsconfig.git"
+    "url": "https://github.com/brunorodmoreira/tsconfig.git"
   },
   "keywords": [
     "typescript",
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/brunorodmoreira/tsconfig/issues"
   },
-  "homepage": "https://github.com/brunorodmoreira/tsconfig#readme"
+  "homepage": "https://github.com/brunorodmoreira/tsconfig#readme",
+  "devDependencies": {
+    "@geut/chan": "2.x"
+  },
+  "peerDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
